@@ -1,0 +1,245 @@
+# Privacy Policy — Yaser USMLE
+
+**Effective date:** October 20, 2026  
+**App:** Yaser USMLE (mobile)  
+**Website:** [https://yaser-usmle.com](https://yaser-usmle.com)  
+
+This policy explains how the Yaser USMLE mobile app handles personal information. It applies to the Android and iOS apps. The website may have its own notices; this document describes the mobile app.
+
+Yaser USMLE is a student app for USMLE preparation: accounts, courses, lessons, exams, flashcards, study plans, payments, and notifications.
+
+---
+
+## 1. Information we collect
+
+### Account information
+
+When you register, sign in, or update your profile, we process:
+
+- Full name
+- Email address
+- Password (sent to our server to create or verify your account; the app does not keep your password in plain text)
+- Phone number, if you provide one
+- Profile photo URL, if your account has one
+
+### Learning activity
+
+While you use the app, our servers store data needed to run the service, including:
+
+- Courses, lessons, and packages you open or enroll in
+- Exam answers, scores, and results
+- Flashcard reviews and study-plan progress
+- In-app notifications
+- Trial-session data if you use a trial without a full account
+
+### Payments
+
+Checkout is reviewed by our team. Depending on the method you choose, we collect:
+
+- Country and payment method
+- Amount, currency, and coupon code
+- Name, phone, and account email included with the payment note
+- A photo of your payment receipt or Stripe invoice, chosen from your photo library
+- The email you used for a Stripe card payment, if that method applies
+
+We do not collect or store your full card number in the app. Card payments are completed on Stripe’s own page. You then upload proof so we can match the payment to your account.
+
+### Device and session data
+
+- A device identifier created on your phone (`device fingerprint`) and a device name, sent when you register or sign in, so we can manage sessions
+- Access and refresh tokens stored in the device’s secure storage
+- A cached copy of your profile on the device so the app can open while you are signed in
+- Language preference (Arabic or English)
+- Network connection status, used only to show when you are offline
+- Push notification token (Firebase Cloud Messaging) and platform (`android` or `ios`), sent to our server after you sign in so we can deliver course and account alerts
+- Files you download for offline video or lesson materials, stored on your device
+
+### Information we do not collect
+
+The app does not request your location, contacts, microphone, or camera. It does not include advertising SDKs or a third-party analytics SDK. We do not sell personal information.
+
+---
+
+## 2. How we use information
+
+We use the information above to:
+
+- Create and secure your account, including password reset
+- Show your courses, lessons, exams, flashcards, and study progress
+- Process enrollments and review payment proof
+- Send push notifications you allow, and in-app notifications
+- Remember your language and keep you signed in
+- Detect and limit unauthorized use of an account
+- Respond when you contact us from the in-app Contact screen, WhatsApp, or email
+
+---
+
+## 3. Permissions
+
+| Permission | Why |
+| --- | --- |
+| Internet and network state | Load courses, sign in, and detect offline mode |
+| Notifications | Course and account alerts, if you allow them |
+| Photos / storage (images) | Let you pick a payment-receipt image from your gallery |
+| Foreground service | Keep video downloads running on Android |
+
+You can deny notifications or photo access. Sign-in and browsing still work; alerts or receipt upload will not.
+
+---
+
+## 4. Sharing with service providers
+
+We share data only as needed to operate the app:
+
+| Provider | Role |
+| --- | --- |
+| Yaser USMLE servers (`api.yaser-usmle.com`) | Accounts, courses, exams, payments, and notifications |
+| Google Firebase Cloud Messaging | Delivers push notifications to your device |
+| VdoCipher | Secure course video playback and offline video |
+| YouTube | Plays or downloads lesson videos that are hosted on YouTube |
+| Stripe | Processes card payments on Stripe’s site when you choose that method |
+| Google Fonts | Loads typefaces used in the interface |
+
+WhatsApp, Telegram, and social links in the app open those services only if you tap them. We do not send your account data to those apps automatically.
+
+We may also disclose information if the law requires it, or to protect students, staff, or the service from fraud or abuse.
+
+---
+
+## 5. Storage and security
+
+- Sign-in tokens are kept in encrypted device storage (`flutter_secure_storage`).
+- Profile cache, language, and similar preferences use local app storage.
+- Offline videos and files stay on your device until you remove them.
+- Traffic to our API uses HTTPS.
+- Payment receipt images are uploaded to our server so an admin can confirm the payment.
+
+No method of transmission or storage is perfectly secure. Use a strong password and sign out on shared devices.
+
+---
+
+## 6. How long we keep data
+
+- Account, enrollment, exam, and payment records are kept while your account is active and as long as we need them for teaching records, payment disputes, and legal obligations.
+- The push token is removed from our server when you sign out (best effort) and when Firebase rotates it.
+- Local tokens, cached profile, and downloaded files are deleted from the device when you sign out or uninstall the app, except downloads you remove separately and anything the operating system keeps in backups.
+
+---
+
+## 7. Your choices
+
+- Update your name and phone in account settings.
+- Change your password in the app, or use “Forgot password.”
+- Turn off notifications in the system settings for Yaser USMLE.
+- Decline photo access if you do not want to upload a receipt from the gallery.
+- Sign out to clear session tokens on that device.
+- Ask us to access, correct, or delete your account using the contact methods below. We may need to keep payment records where the law requires it.
+
+---
+
+## 8. Children
+
+Yaser USMLE is for students preparing for the USMLE. It is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has created an account, contact us and we will delete it.
+
+---
+
+## 9. International transfers
+
+Our servers and the providers listed above may process data outside your country, including the United States (Google, YouTube, Stripe) and the regions where our API is hosted. We use this data to provide the app you requested.
+
+---
+
+## 10. Changes
+
+We will update the “Effective date” at the top when this policy changes. Continued use of the app after an update means you accept the revised policy. For a material change, we may also show a notice in the app.
+
+---
+
+## 11. Contact
+
+Questions about this policy or your data:
+
+- In the app: **Profile → Contact us**
+- Website: [https://yaser-usmle.com](https://yaser-usmle.com)
+
+The contact email and phone shown in the app come from our public site settings and are the current way to reach us.
+
+---
+
+# سياسة الخصوصية — ياسر يوسملي
+
+**تاريخ السريان:** 20 أكتوبر 2026  
+**التطبيق:** Yaser USMLE (للهاتف)  
+**الموقع:** [https://yaser-usmle.com](https://yaser-usmle.com)  
+**واجهة البرمجة:** [https://api.yaser-usmle.com](https://api.yaser-usmle.com)
+
+توضح هذه السياسة كيف يتعامل تطبيق ياسر يوسملي مع البيانات الشخصية. تسري على تطبيقي أندرويد و iOS.
+
+التطبيق مخصص لطلاب تحضير USMLE: الحساب، الكورسات، الدروس، الامتحانات، البطاقات التعليمية، خطة المذاكرة، المدفوعات، والإشعارات.
+
+## 1. البيانات التي نجمعها
+
+**الحساب:** الاسم الكامل، البريد الإلكتروني، كلمة المرور (تُرسل للخادم للتحقق ولا تُحفظ كنص ظاهر داخل التطبيق)، رقم الهاتف إن أدخلته، ورابط الصورة الشخصية إن وُجدت.
+
+**النشاط الدراسي:** الكورسات والدروس والاشتراكات، إجابات الامتحانات والنتائج، مراجعة البطاقات وخطة المذاكرة، إشعارات التطبيق، وبيانات الجلسة التجريبية إن استخدمت التجربة دون حساب كامل.
+
+**المدفوعات:** الدولة وطريقة الدفع، المبلغ والعملة وكود الخصم، الاسم والهاتف والبريد المرفقين مع طلب الدفع، صورة إيصال الدفع أو فاتورة Stripe من معرض الصور، والبريد الذي استخدمته في دفع Stripe عند اختيار هذه الطريقة. التطبيق لا يجمع رقم البطاقة الكامل. الدفع بالبطاقة يتم على صفحة Stripe، ثم ترفع إثبات الدفع لمطابقته بحسابك.
+
+**الجهاز والجلسة:** معرّف يُنشأ على هاتفك واسم الجهاز عند التسجيل أو تسجيل الدخول، رموز الدخول المحفوظة في التخزين الآمن، نسخة محلية من ملفك الشخصي، لغة الواجهة، حالة الاتصال (لإظهار وضع عدم الاتصال)، رمز إشعارات Firebase ونوع النظام بعد تسجيل الدخول، والملفات التي تنزّلها للمشاهدة دون اتصال.
+
+**ما لا نجمعه:** التطبيق لا يطلب الموقع أو جهات الاتصال أو الميكروفون أو الكاميرا، ولا يتضمن إعلانات أو أداة تحليلات خارجية، ولا نبيع البيانات الشخصية.
+
+## 2. لماذا نستخدم البيانات
+
+لإنشاء حسابك وحمايته، وعرض الكورسات والامتحانات وتقدّمك، ومراجعة إثبات الدفع وتفعيل الاشتراك، وإرسال الإشعارات التي تسمح بها، وتذكّر اللغة وإبقاء تسجيل الدخول، والحد من الاستخدام غير المصرّح به، والرد عليك عند التواصل معنا.
+
+## 3. الأذونات
+
+- **الإنترنت وحالة الشبكة:** تحميل المحتوى وتسجيل الدخول ومعرفة وضع عدم الاتصال.
+- **الإشعارات:** تنبيهات الكورسات والحساب إذا سمحت بها.
+- **الصور:** اختيار صورة إيصال الدفع من المعرض.
+- **خدمة أمامية (أندرويد):** استمرار تنزيل الفيديو.
+
+رفض الإشعارات أو الصور لا يمنع تسجيل الدخول. يمنع التنبيهات أو رفع الإيصال فقط.
+
+## 4. الجهات التي نستعين بها
+
+- **خوادم ياسر يوسملي** لتشغيل الحساب والمحتوى والمدفوعات.
+- **Firebase Cloud Messaging** لتوصيل الإشعارات.
+- **VdoCipher** لتشغيل فيديو الكورسات وتنزيله بشكل محمي.
+- **YouTube** لدروس الفيديو المستضافة هناك.
+- **Stripe** للدفع بالبطاقة على موقع Stripe.
+- **Google Fonts** لخطوط الواجهة.
+
+روابط واتساب وتيليجرام ومواقع التواصل تُفتح فقط إذا ضغطت عليها، ولا نرسل بيانات حسابك إليها تلقائياً. قد نكشف بيانات إذا طلب القانون ذلك أو لحماية الطلاب والخدمة من الاحتيال.
+
+## 5. التخزين والأمان
+
+رموز الدخول في تخزين مشفّر على الجهاز. تفضيلات مثل اللغة في تخزين التطبيق المحلي. فيديوهات عدم الاتصال تبقى على جهازك حتى تحذفها. الاتصال بالخادم عبر HTTPS. صور الإيصالات تُرفع ليراجعها المشرف. استخدم كلمة مرور قوية وسجّل الخروج على الأجهزة المشتركة.
+
+## 6. مدة الاحتفاظ
+
+نحتفظ بسجلات الحساب والاشتراك والامتحانات والمدفوعات ما دام الحساب نشطاً وما دام ذلك لازماً للسجلات الدراسية والنزاعات والالتزامات القانونية. يُحذف رمز الإشعار من الخادم عند تسجيل الخروج قدر الإمكان. رموز الجلسة والملف المحلي تُمسح عند الخروج أو حذف التطبيق.
+
+## 7. اختياراتك
+
+يمكنك تعديل الاسم والهاتف، وتغيير كلمة المرور، وإيقاف الإشعارات من إعدادات النظام، ورفض الوصول للصور، وتسجيل الخروج. لطلب الاطلاع أو التصحيح أو حذف الحساب راسلنا من الطرق أدناه. قد نحتفظ بسجلات الدفع إذا أوجب القانون ذلك.
+
+## 8. الأطفال
+
+التطبيق موجه لطلاب تحضير USMLE وليس للأطفال دون 13 عاماً. لا نجمع بياناتهم عن علم. إذا أنشأ طفل حساباً، راسلنا لنحذفه.
+
+## 9. النقل خارج بلدك
+
+قد تُعالج البيانات خارج بلدك، بما في ذلك الولايات المتحدة لدى Google و YouTube و Stripe، وفي المنطقة التي تستضيف واجهة البرمجة، وذلك لتقديم الخدمة التي طلبتها.
+
+## 10. التعديلات
+
+عند تغيير هذه السياسة نحدّث تاريخ السريان أعلاه. استمرارك في استخدام التطبيق بعد التحديث يعني موافقتك على النسخة الجديدة. قد نعرض تنبيهاً داخل التطبيق عند التغيير الجوهري.
+
+## 11. التواصل
+
+- من التطبيق: **الملف الشخصي ← اتصل بنا**
+- الموقع: [https://yaser-usmle.com](https://yaser-usmle.com)
+
+البريد ورقم الهاتف الظاهران داخل التطبيق مصدرهما إعدادات الموقع العامة وهما وسيلة التواصل الحالية.
